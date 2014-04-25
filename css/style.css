@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font: normal 17px Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+header, article{
+    display: block;
+    
+    float: left;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+article{
+    padding-top: 120px;
+}
+
+#avatar{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+h1{
+    color: gray;
+}
+
+blockquote{
+    font-size: 130%;
+    text-align: right;
+    color: gray;
+}
+p{
+    color: #666666;
+}
+
+footer{
+    clear: both;
+}
+
+
+
+/* Social icons*/
+nav ul{
+    font-size:0; 
+    margin: 40px auto;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    
+    display: block;
+    height: 150px;
+    background-color: #eeeeee;
+    
+}
+nav ul li{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    padding: 0 10px;
+    line-height: 190px;
+    
+}
+
+#facebook{
+    background-color: #4a6ea9;
+}
+
+#twitter{
+    background-color: #5ea9dd;
+}
+
+#youtube{
+    background-color: #e64a41;
+}
+
+#instagram{
+    background-color: #816647;
+}
+
+#blog{
+    background-color: #ffa654;
+}
+
+#github{
+    background-color: #5a2a4d;
+}
+
+#googleplus{
+    background-color: #cc3433;
+}
+#email{
+    background-color: #666666;
+}
+
+@media (max-width: 768px){
+    header, article{
+        padding-top: 30px;        
+        float: none;
+
+    }
+    nav ul li{
+        
+        display: block;
+       
+
+    }
+    nav ul li a{
+        
+        display: block;
+        width: 100%;
+       
+        padding: 30px 0;
+
+    }
+}
+
+@media (min-width: 769px){
+    header, article{
+        width: 40%;
+
+    }
+}
