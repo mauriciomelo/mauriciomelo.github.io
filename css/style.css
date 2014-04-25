@@ -3,6 +3,10 @@ html, body{
     padding: 0;
     font: normal 17px Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.hidden {
+    display: none;
+}
 header, article{
     display: block;
     
