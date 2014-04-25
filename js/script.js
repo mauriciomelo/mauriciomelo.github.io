@@ -7,17 +7,3 @@
 
   ga('create', 'UA-48300629-1', 'mauriciomelo.com.br');
   ga('send', 'pageview');
-  
-  
-$(document).ready(function(){ 
-    
-    /* Links ainda inativos */
-  $("* [href='#'").click(function(e){
-      e.preventDefault();
-      alert("Em breve!");
-      
-  });
-});
-
-
-
