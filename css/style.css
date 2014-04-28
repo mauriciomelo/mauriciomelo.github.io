@@ -5,7 +5,7 @@ html, body{
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 header, article{
     display: block;
@@ -46,28 +46,39 @@ footer{
 
 
 
-/* Social icons*/
-nav ul{
+/*
+* Social network navigation bar 
+*/
+
+.navbar-social {
+    background-color: #eeeeee;
+    
+}
+
+
+
+.navbar-social ul{
     font-size:0; 
     margin: 40px auto;
     padding: 0;
     text-align: center;
     vertical-align: middle;
-    
     display: block;
     height: 150px;
-    background-color: #eeeeee;
-    
+    -webkit-perspective: 150px;
 }
-nav ul li{
+
+.navbar-social ul li{
+    position: relative;
+    transition-duration: .3s;
     display: inline-block;
     height: 100%;
     vertical-align: middle;
     list-style: none;
-    
-    
+    overflow: hidden;
 }
-nav ul li a{
+
+.navbar-social ul li a{
     
     display: inline-block;
     width: 100px;
@@ -76,6 +87,32 @@ nav ul li a{
     line-height: 190px;
     
 }
+
+
+
+.active {    
+    z-index: 3;
+    -webkit-transform:  scale(1.25);
+    margin: 0 20px;
+}
+
+
+.active-sibling-lvl-1 {
+    z-index: 2;
+    -webkit-transform:  scale(1.15);
+    margin: 0 10px;
+    
+}
+.active-sibling-lvl-2 {
+    z-index: 1;
+    -webkit-transform:  scale(1.1);
+    margin: 0 10px;
+}
+
+
+
+
+/* icons */
 
 #facebook{
     background-color: #4a6ea9;
@@ -114,19 +151,13 @@ nav ul li a{
         float: none;
 
     }
-    nav ul li{
-        
+    .navbar-social ul li{
         display: block;
-       
-
     }
-    nav ul li a{
-        
+    .navbar-social ul li a{
         display: block;
         width: 100%;
-       
         padding: 30px 0;
-
     }
 }
 
