@@ -131,34 +131,34 @@ footer{
 
 /* icons */
 
-#facebook{
+.facebook{
     background-color: #4a6ea9;
 }
 
-#twitter{
+.twitter{
     background-color: #5ea9dd;
 }
 
-#youtube{
+.youtube{
     background-color: #e64a41;
 }
 
-#instagram{
+.instagram{
     background-color: #816647;
 }
 
-#blog{
+.blog{
     background-color: #ffa654;
 }
 
-#github{
+.github{
     background-color: #5a2a4d;
 }
 
-#googleplus{
+.googleplus{
     background-color: #cc3433;
 }
-#email{
+.email{
     background-color: #666666;
 }
 
